@@ -13,6 +13,10 @@ public class Pony {
 	private String name;
 	private String race;
 
+	public Pony() {
+
+	}
+
 	public Pony(long id, String name, String race) {
 		super();
 		this.id = id;
