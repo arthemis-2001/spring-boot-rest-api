@@ -1,7 +1,14 @@
 package com.artemtartakovsky.learn_spring_boot.ponies.bean;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
 public class Pony {
 
+	@Id
+	@GeneratedValue
 	private long id;
 	private String name;
 	private String race;
