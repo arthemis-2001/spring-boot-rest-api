@@ -1,0 +1,9 @@
+spring.application.name=learn-spring-boot
+# logging.level.org.springframework=DEBUG
+management.endpoints.web.exposure.include=*
+spring.jpa.defer-datasource-initialization=true
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+spring.jpa.properties.hibernate.dialect=
