@@ -10,7 +10,9 @@ public class Pony {
 	@Id
 	@GeneratedValue
 	private long id;
+
 	private String name;
+
 	private String race;
 
 	public Pony() {

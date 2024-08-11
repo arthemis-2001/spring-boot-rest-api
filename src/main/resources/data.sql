@@ -1,6 +1,6 @@
 INSERT INTO PONY (ID, NAME, RACE)
-VALUES (1, 'Diamond Tiara', 'Earth pony');
+VALUES (100, 'Diamond Tiara', 'Earth pony');
 INSERT INTO PONY (ID, NAME, RACE)
-VALUES (2, 'Snips', 'Unicorn');
+VALUES (102, 'Snips', 'Unicorn');
 INSERT INTO PONY (ID, NAME, RACE)
-VALUES (3, 'Featherweight', 'Pegasus');
+VALUES (103, 'Featherweight', 'Pegasus');

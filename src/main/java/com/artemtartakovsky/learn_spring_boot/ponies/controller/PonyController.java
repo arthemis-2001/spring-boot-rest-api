@@ -6,6 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.artemtartakovsky.learn_spring_boot.ponies.bean.Pony;
@@ -33,5 +35,11 @@ public class PonyController {
 		}
 
 		return pony.get();
+	}
+
+	// http://localhost:8080/ponies
+	@PostMapping("/ponies")
+	public void createPony(@RequestBody Pony pony) {
+		repository.save(pony);
 	}
 }
